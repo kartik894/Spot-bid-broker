@@ -38,6 +38,9 @@ Compute the autocorrelation of the spot pricing history with a lag factor varyin
 get_stl():
 Makes decision on which availability zone to choose by comparing standard deviations of residual graphs(by removing seasonality and trend)
 
+Credits
+-------------
+Some part of the code comes from [spot-ec2-proxifier](https://github.com/alexzorin/spot-ec2-proxifier) project
 read_user_data_from_local_config():
 Read keys from the local config file
 
@@ -52,7 +55,3 @@ Place a spot request with given parameters.
 
 wait_for_up():
 Used to connect to the spot instance and get its public IP
-
-Credits
--------------
-Some part of the code comes from [spot-ec2-proxifier](https://github.com/alexzorin/spot-ec2-proxifier) project
